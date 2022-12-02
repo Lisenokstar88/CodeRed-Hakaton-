@@ -45,40 +45,53 @@ content {
   height: 100%;
   width: 100%;
   margin-bottom: 1%;
+  /* Full-width input fields */
+  /* Overwrite default styles of hr */
+  /* Set a style for the submit/register button */
+  /* Add a blue text color to links */
+  /* Set a grey background color and center the text of the "sign in" section */
 }
-
-.Lager {
-  display: grid;
-}
-.Lager ul {
-  height: 100%;
-  display: flex;
-  list-style: none;
-  padding: 0%;
-  margin: 0%;
-  color: #ffffff;
-  font-size: 35px;
-}
-.Lager ul li {
-  display: grid;
-  width: 550px;
+content .container {
+  padding: 16px;
   background-color: rgba(0, 0, 0, 0.7);
-  padding: 40px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  word-wrap: break-word;
+  color: whitesmoke;
 }
-.Lager ul li p {
-  height: 100px;
-  width: 300px;
+content input[type=text], content input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
 }
-.Lager ul li .button {
-  margin-left: 36%;
-  width: 150px;
+content input[type=text]:focus, content input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
 }
-.Lager ul .carousel img {
-  height: 400px;
-  width: 500px;
-  border: 5px solid rgb(0, 0, 0);
+content hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+content .registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+content .registerbtn:hover {
+  opacity: 1;
+}
+content a {
+  color: dodgerblue;
+}
+content .signin {
+  background-color: #f1f1f1;
+  text-align: center;
+  color: #000000;
 }
 
 footer {
@@ -122,4 +135,4 @@ footer .production h5 {
   font-size: smaller;
   margin-left: auto;
   margin-right: 5px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=registration.css.map */

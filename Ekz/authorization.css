@@ -47,40 +47,6 @@ content {
   margin-bottom: 1%;
 }
 
-.Lager {
-  display: grid;
-}
-.Lager ul {
-  height: 100%;
-  display: flex;
-  list-style: none;
-  padding: 0%;
-  margin: 0%;
-  color: #ffffff;
-  font-size: 35px;
-}
-.Lager ul li {
-  display: grid;
-  width: 550px;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 40px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  word-wrap: break-word;
-}
-.Lager ul li p {
-  height: 100px;
-  width: 300px;
-}
-.Lager ul li .button {
-  margin-left: 36%;
-  width: 150px;
-}
-.Lager ul .carousel img {
-  height: 400px;
-  width: 500px;
-  border: 5px solid rgb(0, 0, 0);
-}
-
 footer {
   grid-area: footer;
   display: flex;
@@ -122,4 +88,4 @@ footer .production h5 {
   font-size: smaller;
   margin-left: auto;
   margin-right: 5px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=authorization.css.map */
